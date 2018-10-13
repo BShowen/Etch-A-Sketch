@@ -2,14 +2,20 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet"> 
         <link href="./styleSheet.css" type="text/css" rel="stylesheet"> 
         <title></title>
     </head>
     <body>
-        <input type='button' value='Start Over' class='resetBtn'>
-        
-        <input type='button' value='New Sketch' class='newBtn'>
-        
+        <div id='title'>
+            <h1>Bradley's Etch-A-Sketch</h1>
+        </div>
+        <header>
+            <input type='button' id='buttons' value='Start Over' class='resetBtn'>
+            
+            <input type='button' id='buttons' value='New Sketch' class='newBtn'>
+        </header>
+
         <div id='gridContainer'></div>
         
         <script type='text/javascript' src='./script.js'></script>

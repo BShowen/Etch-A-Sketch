@@ -10,8 +10,8 @@ const newBtn = document.querySelector('.newBtn');
 })
 
 function usersGridChoice(){
-    let gridSize = prompt('Enter a number between 0 and 100');
-    if(gridSize < 0 || gridSize > 100 ){
+    let gridSize = prompt('Enter a number between 0 and 200');
+    if(gridSize < 0 || gridSize > 200 ){
         alert('The number you entered is not in range. Try again.')
     }else{
         createGrid(gridSize);
