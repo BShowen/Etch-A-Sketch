@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.box {
+    float: left;
+}
+
+#gridContainer{
+    display: grid;
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
